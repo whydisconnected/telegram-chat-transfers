@@ -1,0 +1,24 @@
+{
+  "base_repository": "https://github.com/DrKLO/Telegram",
+  "base_commit": "f2908b14133bbffbf7ab04f641ecb5bfaf533242",
+  "files": {
+    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferDemoActivity.java": "ca23b52f53a9f0f3419c440bc2b81c98701dedccd712e6f34960b74615d5f975",
+    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferFixtureData.java": "f3449db0210947909112d4ec75dde211359f173ba2c2e0efc3256eadb499c872",
+    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActivity.java": "f35d0b64ab77d059e1a22f4e04ab2b20e5323553360eaaaa123f919422860360",
+    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeChrome.java": "5fe9d785056492c1e107bb49d19d286a89ff48196a4d1fb78600d3f1935d3287",
+    "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferState.java": "2012f4fce64ae971f639d3265c3351394aeb130b4d0a0709ffc64a3e31ed44b3",
+    "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferView.java": "b95216976056d0f69df8727f6621ee19a044664e784f5c4fa4b51506d5c36f69",
+    "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferAlbumView.java": "a25a01fc875c8e6ae50ad2196c1e7ce729b83349bcfcb1396e6bcaac5af1b479",
+    "TMessagesProj/src/main/java/org/telegram/ui/Components/AnimatedLinearLayout.java": "9396162345d00ecfe8fd235e66813bb35d9f5cb4006137b6c1e07d86ceb358d7",
+    "TMessagesProj/src/main/java/org/telegram/ui/Components/AudioPlayerAlert.java": "18b0f825952fd6703c387cefe946a3e73cbb2123822a7957e8e4814f3ff4a03c",
+    "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatAttachAlert.java": "44de2d72eec8a5a56e4e5a1daccaa3d4305f082ae2701499e618e64e562c5fe6",
+    "TMessagesProj/src/main/java/org/telegram/ui/Components/FragmentContextView.java": "89d678a3ab8a675b935904c5218f20320f981c6d7035dd4474cf7ac7e2292bb4",
+    "TMessagesProj/src/main/java/org/telegram/ui/Components/SeekBarView.java": "6655d687a1fb259a8583f66b4595ef2006a284f25411d94545ca5efbf82f79c0",
+    "TMessagesProj/src/main/java/org/telegram/ui/Stories/recorder/TrashView.java": "f5838ee8dd23dd6e3bcc39d7796053fec10cc26852755edffc3d01166c9b1cf8",
+    "TMessagesProj/src/main/java/org/telegram/ui/LaunchActivity.java": "1eced6fcebd859669dc6eebd25cfe087372dbd9b0b4cef860c19221c5a71a5c3"
+  },
+  "patch_apply_checked": true,
+  "full_isolated_build_checked": false,
+  "origin": "v29 native concept sources; v30 changes video presentation only",
+  "unrelated_drafts_and_profile_music_omitted": true
+}

@@ -1,0 +1,8 @@
+*.apk
+*.keystore
+local.properties
+.env
+*.m4a
+*.mp3
+*.wav
+__pycache__/
