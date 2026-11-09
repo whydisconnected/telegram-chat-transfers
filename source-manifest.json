@@ -5,7 +5,7 @@
     "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferDemoActivity.java": "ca23b52f53a9f0f3419c440bc2b81c98701dedccd712e6f34960b74615d5f975",
     "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferFixtureData.java": "f3449db0210947909112d4ec75dde211359f173ba2c2e0efc3256eadb499c872",
     "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActivity.java": "f6276ee016ebb5b283b1a6319e45b02b5ac3d253678943159cabc9167585b722",
-    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeChrome.java": "b447f12865e3aafac36e64851198d86363ae75a5fa994826ceb1b67731f5209a",
+    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeChrome.java": "27e2f94e7324547551d1e9c74b0af73be466104a9e204df360ae0f721d98a44f",
     "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferState.java": "2012f4fce64ae971f639d3265c3351394aeb130b4d0a0709ffc64a3e31ed44b3",
     "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferView.java": "aca09624864781c03362e0479b73176bdd564a4d8aa26829418d18c5b847dc3f",
     "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferAlbumView.java": "a25a01fc875c8e6ae50ad2196c1e7ce729b83349bcfcb1396e6bcaac5af1b479",
@@ -19,7 +19,7 @@
   },
   "patch_apply_checked": true,
   "full_isolated_build_checked": false,
-  "origin": "v34 native edge-fade lifecycle correction, freshly built and captured",
+  "origin": "v35 thumbnail-body selection via native photo-cell delegate; fresh photo capture, unchanged verified v34 player",
   "unrelated_drafts_and_profile_music_omitted": true,
   "presentation_status_native": false
 }

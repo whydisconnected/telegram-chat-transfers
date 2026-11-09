@@ -1,0 +1,58 @@
+{
+  "real_input_events": [
+    {
+      "t": 2.11,
+      "end": 2.235,
+      "name": "select_bridge",
+      "kind": "tap",
+      "args": [
+        540,
+        1240
+      ]
+    },
+    {
+      "t": 2.5,
+      "end": 2.625,
+      "name": "select_tower",
+      "kind": "tap",
+      "args": [
+        900,
+        1240
+      ]
+    },
+    {
+      "t": 2.891,
+      "end": 3.016,
+      "name": "select_street",
+      "kind": "tap",
+      "args": [
+        540,
+        1600
+      ]
+    },
+    {
+      "t": 10.313,
+      "end": 10.406,
+      "name": "select_louvre",
+      "kind": "tap",
+      "args": [
+        900,
+        1460
+      ]
+    },
+    {
+      "t": 10.703,
+      "end": 10.797,
+      "name": "select_notre_dame",
+      "kind": "tap",
+      "args": [
+        180,
+        1820
+      ]
+    }
+  ],
+  "targets": "thumbnail interiors, away from corner number circles",
+  "native_selection_delegate": true,
+  "single_send_flag": false,
+  "player_bit_identical_to_v34": true
+}

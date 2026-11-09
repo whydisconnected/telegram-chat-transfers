@@ -6,7 +6,7 @@ package contains both feature code and its isolated, signed-out demo host.
 
 [Photo draft demo](photos.mp4) · [Music queue demo](player.mp4)
 
-Latest movies (v34) are freshly captured on a physical1080x2410 test-emulator
+Photo movie v35 is freshly captured; player movie reuses verified v34 footage, both on a physical1080x2410 test-emulator
 display, matching the Pixel10Pro display aspect. Daniel retains the Paris
 background; Alina uses a minimal dark background. Original Pixel geometry is
 stationary and the metal highlights are toned down. Status glyphs follow the
@@ -88,6 +88,11 @@ music experiments from the working checkout are excluded.
 
 ## Current native changes
 
+- The attachment sheet routes thumbnail taps to the existing photo-cell selection delegate.
+  Tapping the thumbnail selects it; the film touches photo interiors instead
+  of corner checkboxes. The existing album preview remains available.
+
+
 - ChatActivity owns its unmodified native edge fades, wallpaper source, opacity
   and layout. The fixture no longer replaces their drawables after layout or
   substitutes a solid black source. No gradient or status rectangle is added
@@ -101,9 +106,9 @@ music experiments from the working checkout are excluded.
 
 ## Verification and limits
 
-The current v34 checkout built and ran on the owned Android emulator. Native
+The current v35 checkout built and ran on the owned Android emulator. Native
 selection, cancellation, incremental adding, tray reordering, local album
-creation, playback/queue/seek were captured and inspected. Exported v34 movies use those fresh native captures with stationary Pixel framing. A 60 fps export is not a
+creation, playback/queue/seek were captured and inspected. Exported movies use native captures with stationary Pixel framing. A 60 fps export is not a
 claim of uniformly 60 fps native rendering.
 
 This isolated patch passes application and resulting-file hash checks against

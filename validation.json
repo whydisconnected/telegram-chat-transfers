@@ -9,27 +9,27 @@
     "approx_glass_edge_inset_px": 15.0,
     "native_edge_fade_preserved": true,
     "presentation_status_native": false,
-    "source_capture": "fresh native v34",
-    "sha256": "cc8e0e0d52499dbd2e2e77a3f5231a10d943c3c3dbe37cb3f6827920795517ac",
+    "source_capture": "fresh native v35",
+    "sha256": "a2dc7bdf02d16d492f1303da8c5d20fd0365e62ab46d9085c34ba6d49e6f8331",
     "native_validation": {
       "raw_black_flashes": [],
-      "raw_minimum_brightness": 34.215555555555554,
+      "raw_minimum_brightness": 34.25377777777778,
       "gallery_first_frame": {
-        "request_to_ready_ms": 381,
+        "request_to_ready_ms": 472,
         "after_first_draw_ms": 0,
         "cells": 13,
         "ready": 13,
         "shared": 13
       },
       "cancel_target_release_to_hidden_ms": [
-        163
+        140
       ],
       "native_preview_in_story": true,
       "canceled_transfer_separate_coverage": [
         149,
         170
       ],
-      "native_gift_changed_pixels": 529,
+      "native_gift_changed_pixels": 627,
       "native_album_animator_verified": true
     }
   },
@@ -43,7 +43,7 @@
     "approx_glass_edge_inset_px": 15.0,
     "native_edge_fade_preserved": true,
     "presentation_status_native": false,
-    "source_capture": "fresh native v34",
+    "source_capture": "unchanged verified v34",
     "sha256": "a7899d003461569e49aa36d69cc0b13f5c944e8daa1b3b1ced4f75e3ae53bbdb",
     "native_validation": {
       "raw_black_flashes": [],
@@ -267,5 +267,5 @@
     },
     "audio_minimum_correlation": 0.999133
   },
-  "local_upload_seconds": 0.973
+  "local_upload_seconds": 0.959
 }

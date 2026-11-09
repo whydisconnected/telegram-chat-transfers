@@ -983,7 +983,7 @@ diff --git a/TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeChrom
 new file mode 100644
 --- /dev/null
 +++ b/TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeChrome.java
-@@ -0,0 +1,1045 @@
+@@ -0,0 +1,1061 @@
 +package org.telegram.ui;
 +
 +import android.content.Context;
@@ -1607,6 +1607,22 @@ new file mode 100644
 +            catch (Exception e) { FileLog.e(e); }
 +        }
 +        if (gallery.getCommentView() != null) gallery.getCommentView().setText(transfer.getInput().getText());
++        RecyclerListView photoGrid = gallery.getPhotoLayout().gridView;
++        try {
++            RecyclerListView.OnItemClickListenerExtended originalClick =
++                    (RecyclerListView.OnItemClickListenerExtended) field(RecyclerListView.class, "onItemClickListenerExtended").get(photoGrid);
++            photoGrid.setOnItemClickListener((RecyclerListView.OnItemClickListenerExtended) (view, position, x, y) -> {
++                if (view instanceof PhotoAttachPhotoCell) {
++                    PhotoAttachPhotoCell cell = (PhotoAttachPhotoCell) view;
++                    MediaController.PhotoEntry photo = cell.getPhotoEntry();
++                    if (photo != null && photoIndices.containsKey(photo.imageId)) {
++                        cell.callDelegate();
++                        return;
++                    }
++                }
++                if (originalClick != null) originalClick.onItemClick(view, position, x, y);
++            });
++        } catch (Exception e) { FileLog.e(e); }
 +        gallery.getPhotoLayout().gridView.setOnItemLongClickListener((view, position) -> {
 +            if (!(view instanceof PhotoAttachPhotoCell)) return false;
 +            PhotoAttachPhotoCell cell = (PhotoAttachPhotoCell) view;
