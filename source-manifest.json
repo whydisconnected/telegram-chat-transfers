@@ -4,10 +4,10 @@
   "files": {
     "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferDemoActivity.java": "ca23b52f53a9f0f3419c440bc2b81c98701dedccd712e6f34960b74615d5f975",
     "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferFixtureData.java": "f3449db0210947909112d4ec75dde211359f173ba2c2e0efc3256eadb499c872",
-    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActivity.java": "f35d0b64ab77d059e1a22f4e04ab2b20e5323553360eaaaa123f919422860360",
-    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeChrome.java": "5fe9d785056492c1e107bb49d19d286a89ff48196a4d1fb78600d3f1935d3287",
+    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActivity.java": "bc8d3d2ecfdcdc55e26219893fc49c938177b3f7a9ba92ac689ee2eea4a1dc24",
+    "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeChrome.java": "b447f12865e3aafac36e64851198d86363ae75a5fa994826ceb1b67731f5209a",
     "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferState.java": "2012f4fce64ae971f639d3265c3351394aeb130b4d0a0709ffc64a3e31ed44b3",
-    "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferView.java": "b95216976056d0f69df8727f6621ee19a044664e784f5c4fa4b51506d5c36f69",
+    "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferView.java": "aca09624864781c03362e0479b73176bdd564a4d8aa26829418d18c5b847dc3f",
     "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferAlbumView.java": "a25a01fc875c8e6ae50ad2196c1e7ce729b83349bcfcb1396e6bcaac5af1b479",
     "TMessagesProj/src/main/java/org/telegram/ui/Components/AnimatedLinearLayout.java": "9396162345d00ecfe8fd235e66813bb35d9f5cb4006137b6c1e07d86ceb358d7",
     "TMessagesProj/src/main/java/org/telegram/ui/Components/AudioPlayerAlert.java": "18b0f825952fd6703c387cefe946a3e73cbb2123822a7957e8e4814f3ff4a03c",
@@ -19,27 +19,7 @@
   },
   "patch_apply_checked": true,
   "full_isolated_build_checked": false,
-  "origin": "v29 native concept sources; v32 changes presentation hardware/background/status only",
+  "origin": "v33 freshly built/captured native concept sources and updated Pixel presentation",
   "unrelated_drafts_and_profile_music_omitted": true,
-  "presentation_status_native": false,
-  "presentation_status_positions_in_490px_frame": [
-    [
-      "clock",
-      59,
-      49,
-      14
-    ],
-    [
-      "wifi",
-      372,
-      49,
-      14
-    ],
-    [
-      "battery",
-      397,
-      49,
-      14
-    ]
-  ]
+  "presentation_status_native": false
 }

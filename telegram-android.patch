@@ -484,7 +484,7 @@ diff --git a/TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActiv
 new file mode 100644
 --- /dev/null
 +++ b/TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActivity.java
-@@ -0,0 +1,492 @@
+@@ -0,0 +1,501 @@
 +package org.telegram.ui;
 +
 +import android.content.Context;
@@ -510,6 +510,7 @@ new file mode 100644
 +
 +/** Signed-out visual baseline. The entire screen is the upstream ChatActivity. */
 +public final class ChatTransferNativeActivity extends ChatActivity {
++    private static final float LOCAL_UPLOAD_DURATION_MS = 950f;
 +    private final long fixtureUser;
 +    private final boolean photoConversation;
 +    private android.content.BroadcastReceiver captureControl;
@@ -729,7 +730,15 @@ new file mode 100644
 +    }
 +
 +    private void installInteractions(FrameLayout host) throws Exception {
-+        ((View) field("chatActivityFadeView").get(this)).setAlpha(.88f);
++        org.telegram.ui.Components.chat.layouts.ChatActivityFadeView nativeFade =
++                (org.telegram.ui.Components.chat.layouts.ChatActivityFadeView) field("chatActivityFadeView").get(this);
++        org.telegram.ui.Components.blur3.source.BlurredBackgroundSourceColor edgeColor =
++                new org.telegram.ui.Components.blur3.source.BlurredBackgroundSourceColor();
++        edgeColor.setColor(android.graphics.Color.BLACK);
++        nativeFade.setup(new org.telegram.ui.Components.blur3.BlurredBackgroundDrawableViewFactory(edgeColor));
++        nativeFade.setFadeHeightTop(AndroidUtilities.dp(48));
++        nativeFade.setFadeHeightBottom(AndroidUtilities.dp(48));
++        nativeFade.setAlpha(1f);
 +        Bitmap[] photos = new Bitmap[18];
 +        for (int i = 0; i < photos.length; i++) photos[i] = i < 6
 +                ? BitmapFactory.decodeFile(fixture.photo(i).getAbsolutePath()) : photos[i % 6];
@@ -914,7 +923,7 @@ new file mode 100644
 +        getChatListView().postDelayed(new Runnable() {
 +            @Override public void run() {
 +                if (isFinished || getChatListView() == null) return;
-+                float progress = Math.min(1f, (android.os.SystemClock.uptimeMillis() - started) / 2400f);
++                float progress = Math.min(1f, (android.os.SystemClock.uptimeMillis() - started) / LOCAL_UPLOAD_DURATION_MS);
 +                for (int i = 0; i < getChatListView().getChildCount(); i++) {
 +                    View child = getChatListView().getChildAt(i);
 +                    if (!(child instanceof ChatMessageCell)) continue;
@@ -1362,7 +1371,7 @@ new file mode 100644
 +            float exit = direction * Math.max(AndroidUtilities.dp(60),
 +                    Math.abs(view.getTranslationX()) + AndroidUtilities.dp(16));
 +            view.animate().translationX(exit).alpha(0)
-+                    .setDuration(95).setInterpolator(CubicBezierInterpolator.EASE_OUT).start();
++                    .setDuration(140).setInterpolator(CubicBezierInterpolator.EASE_OUT).start();
 +        }
 +        player.postDelayed(() -> {
 +            if (next) MediaController.getInstance().playNextMessage(); else {
@@ -1375,13 +1384,13 @@ new file mode 100644
 +            if (index >= 0) { state.current = index; state.next.remove((Integer) index); updatePlayer(); }
 +            player.refreshMusicSwipeTitle();
 +            for (View view : swipeViews()) {
-+                view.setTranslationX(-direction * AndroidUtilities.dp(45));
++                view.setTranslationX(-direction * AndroidUtilities.dp(24));
 +                view.animate().translationX(0).alpha(view == nativeTitle ? 1 - artworkProgress : artworkProgress)
-+                        .setDuration(300).setInterpolator(CubicBezierInterpolator.EASE_OUT_QUINT).start();
++                        .setDuration(240).setInterpolator(CubicBezierInterpolator.EASE_OUT).start();
 +            }
 +            android.util.Log.d("ChatTransfer", "swipeTrack=" + state.current);
-+            player.postDelayed(() -> { switchingTrack = false; player.setMusicSwipeTransition(false); }, 320);
-+        }, 100);
++            player.postDelayed(() -> { switchingTrack = false; player.setMusicSwipeTransition(false); }, 260);
++        }, 145);
 +    }
 +
 +    private android.widget.TextView line(Context context, int sp, int key, boolean bold) {
@@ -2228,7 +2237,7 @@ new file mode 100644
 +        input.setGravity(Gravity.CENTER_VERTICAL); input.setMaxLines(3); input.setCursorColor(ACCENT);
 +        input.setSoundEffectsEnabled(false); input.setContentDescription("Message or photo caption");
 +        addView(input);
-+        expanded.animation.getSpring().setDampingRatio(.85f).setStiffness(330);
++        expanded.animation.getSpring().setDampingRatio(1f).setStiffness(380);
 +        arrival.animation.getSpring().setDampingRatio(1f).setStiffness(400);
 +        lift.animation.getSpring().setDampingRatio(.9f).setStiffness(500);
 +        stagedReveal.value = 1;

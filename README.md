@@ -6,12 +6,14 @@ package contains both feature code and its isolated, signed-out demo host.
 
 [Photo draft demo](photos.mp4) · [Music queue demo](player.mp4)
 
-Latest movies (v32) use stationary Pixel 10 Pro hardware with darker metal and
-a minimal dark background. At the user's request, the 9:41, Wi-Fi and battery
-status glyphs match their mockup reference, with deeper side insets following
-their second real-Pixel photo. These are presentation overlays, not native
-Android SystemUI evidence; application interactions remain the real v29 capture.
-Hardware, status artwork and audio provenance are in CREDITS.md.
+Latest movies (v33) are freshly captured on a physical1080x2410 test-emulator
+display, matching the Pixel10Pro display aspect. Daniel retains the Paris
+background; Alina uses a minimal dark background. Original Pixel geometry is
+stationary and the metal highlights are toned down. Status glyphs follow the
+user's mockup and side-inset references; native SystemUI glyphs were hidden
+reversibly during capture. Native Telegram edge fading is visible beneath
+that decorative status overlay. See CREDITS.md for provenance.
+
 
 ## What the concepts do
 
@@ -84,12 +86,23 @@ Integration changes are in `AnimatedLinearLayout`, `AudioPlayerAlert`,
 debug-only entry in `LaunchActivity`. Unrelated drafts grouping and profile
 music experiments from the working checkout are excluded.
 
+## Current native changes
+
+- The stock ChatActivityFadeView and BlurredBackgroundWithFadeDrawable use an
+  explicit black native source with48dp falloff at both edges. No opaque status
+  rectangle is inserted by the compositor.
+- The local demonstration upload completes in950ms. This is fictional transport
+  timing and makes no claim about real Telegram network upload speed.
+- Tray expansion is critically damped, track labels enter over24dp/240ms,
+  the photo drag uses a simpler path and the extra queue scroll is omitted.
+- The emulator display aspect removes artificial lower padding. The captured
+  native gesture handle is retained near the physical bottom of the glass.
+
 ## Verification and limits
 
-The original v29 checkout built and ran on the owned Android emulator. Native
+The current v33 checkout built and ran on the owned Android emulator. Native
 selection, cancellation, incremental adding, tray reordering, local album
-creation, playback/queue/seek were captured and inspected. Exported v32 movies
-reuse those captures with stationary Pixel framing. A 60 fps export is not a
+creation, playback/queue/seek were captured and inspected. Exported v33 movies use those fresh native captures with stationary Pixel framing. A 60 fps export is not a
 claim of uniformly 60 fps native rendering.
 
 This isolated patch passes application and resulting-file hash checks against

@@ -1,0 +1,71 @@
+{
+  "build": "BUILD SUCCESSFUL in1m26s",
+  "apk_sha256": "ae3bce2a53288daac4f394d718002f5631b655067e017ed9358f745c3e822a91",
+  "sources": [
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferDemoActivity.java",
+      "sha256": "5025a09c1beb9cbf95cabfdeaa5e79311e69aa7f1886ac9fc888c6af448d84e6",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferFixtureData.java",
+      "sha256": "bb79a5c1cf35c16f9c2cb049638dda38863ded21add61a6803a482c1b8250f4d",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActivity.java",
+      "sha256": "85a2db2b8b2f0ad83f22ad9349c5f95ef2be4972e40e54343f36dde5528e719d",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeChrome.java",
+      "sha256": "1c85af8823b363ef155bf443db4eb0d9b14ec56a5e4b38e3ec86fcc8004c6b8b",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferState.java",
+      "sha256": "2012f4fce64ae971f639d3265c3351394aeb130b4d0a0709ffc64a3e31ed44b3",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferView.java",
+      "sha256": "800300ea5c93e1145befd3e319b152a7a282f65e1291889b44fa89e0a9909290",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatTransferAlbumView.java",
+      "sha256": "a25a01fc875c8e6ae50ad2196c1e7ce729b83349bcfcb1396e6bcaac5af1b479",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/AnimatedLinearLayout.java",
+      "sha256": "ee0fa62ba3113e7671bba912731a0f278917fa0b3312830a88fd92d1bfac1d4e",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/AudioPlayerAlert.java",
+      "sha256": "8d2c307a45e634875b899def409689992ee508821393e5f31e48008b7446ce1c",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/ChatAttachAlert.java",
+      "sha256": "7169f0d1718e1ce1268bc34f7610b77ca13792a73cdf9cc7767326f4785b286c",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/FragmentContextView.java",
+      "sha256": "4b72dcc5c7073f44ab47b462f6855ba91207b2b6618c9ac8544976ce194393b3",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/SeekBarView.java",
+      "sha256": "0b715d6c9efb0ea758061f323105835fa7663957698ad5ca977b6ac582085174",
+      "mirror_matches": true
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Stories/recorder/TrashView.java",
+      "sha256": "6399bdacddc794bf867d6454376828da8dfb4bc938c57e8be2358ce67681b880",
+      "mirror_matches": true
+    }
+  ]
+}

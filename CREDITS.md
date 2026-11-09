@@ -1,28 +1,28 @@
-# v32 presentation and source credits
+# v33 presentation and source credits
 
-Both movies reuse the real, inspected native Telegram Android v29 captures.
-This revision changes external framing/background and the decorative status
-strip. Native application interactions are unchanged. Touch feedback comes
-from actual MotionEvents in the original take. No new app build, synthetic
-UI animation, optical flow or fake gesture was inserted for this revision.
+Both movies use fresh native v33 captures from the owned Android emulator,
+physical1080x2410. Native application interactions are real recorded actions.
+White touch feedback comes from actual MotionEvents. No optical flow or fake
+gesture is inserted. Daniel's outer Paris background is restored; Alina keeps
+the minimal dark ambient background. Camera framing is stationary.
 
 Pixel frame: original Pixel 10 Pro hardware at
 https://screenshots.guru/frames/png/pixel-10-pro-frame.png , offered at
 https://screenshots.guru/frames under Apache 2.0 / Android Open Source Project.
 The device, lens, side buttons, corners and metallic finish retain the provider's
 original geometry. Metal highlights are graded darker (gain0.66, gamma1.08);
-the original lens region is excluded from grading. The native capture is
-uniformly fitted; a little
-black padding handles its different aspect ratio. No UI is stretched or cropped.
+the original lens region is excluded from grading. The fresh native capture matches the display aspect and is uniformly fitted. No UI is stretched or cropped.
 The standalone frame is not included in this repository.
 
 Status chrome: clock9:41, Wi-Fi and battery silhouettes extracted from the
-user-supplied mockup crop, tinted for the dark theme. The original recorded
-Android status strip is covered for presentation. This is not evidence of
+user-supplied mockup crop, tinted for the dark theme. Native Android status glyphs are hidden during capture; the native Telegram
+fade remains visible behind the decorative glyphs, with no rectangular cover. This is not evidence of
 Android using those status symbols. The lens remains part of the Pixel artwork.
 The standalone reference and extracted glyph assets are not redistributed.
 
-Background and compositing are procedural. No other concept's pixels are copied.
+Alina's background and the compositing are procedural. Daniel's background
+reuses the licensed Paris fixture from v29. No other concept's application
+footage is copied.
 White tap feedback is native captured feedback. The references supplied for
 review are Multi-Action Swipe by @riveaux and Video message shapes by @mazurov;
 Their implementation code and application footage are not incorporated here;
@@ -35,10 +35,9 @@ the current film. Photo fixtures include Unsplash Paris imagery; the custom
 status is ResistanceDog-16794 artwork from https://t.me/nft/ResistanceDog-16794 .
 Names and ownership are fictional demo data.
 
-The player film shows fictional Alina Vetrova. It plays the same native queue,
-swipes and release-only seek as v29. Audio is the exact already-validated v29
-encoded soundtrack, copied without re-encoding, using original track PCM aligned
-to measured playback transitions. It is not pristine emulator-capture PCM and
+The player film shows fictional Alina Vetrova. It plays the native queue,
+swipes and release-only seek. The soundtrack uses original track PCM aligned
+to the freshly measured native playback transitions for this take. It is not pristine emulator-capture PCM and
 does not demonstrate iOS audio. Track/cover references:
 
 - Daft Punk — Get Lucky: https://music.apple.com/us/album/random-access-memories/617154241
