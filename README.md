@@ -6,7 +6,7 @@ package contains both feature code and its isolated, signed-out demo host.
 
 [Photo draft demo](photos.mp4) · [Music queue demo](player.mp4)
 
-Latest movies (v33) are freshly captured on a physical1080x2410 test-emulator
+Latest movies (v34) are freshly captured on a physical1080x2410 test-emulator
 display, matching the Pixel10Pro display aspect. Daniel retains the Paris
 background; Alina uses a minimal dark background. Original Pixel geometry is
 stationary and the metal highlights are toned down. Status glyphs follow the
@@ -88,9 +88,10 @@ music experiments from the working checkout are excluded.
 
 ## Current native changes
 
-- The stock ChatActivityFadeView and BlurredBackgroundWithFadeDrawable use an
-  explicit black native source with48dp falloff at both edges. No opaque status
-  rectangle is inserted by the compositor.
+- ChatActivity owns its unmodified native edge fades, wallpaper source, opacity
+  and layout. The fixture no longer replaces their drawables after layout or
+  substitutes a solid black source. No gradient or status rectangle is added
+  in compositing. Both edges are checked from the opening native frame.
 - The local demonstration upload completes in950ms. This is fictional transport
   timing and makes no claim about real Telegram network upload speed.
 - Tray expansion is critically damped, track labels enter over24dp/240ms,
@@ -100,9 +101,9 @@ music experiments from the working checkout are excluded.
 
 ## Verification and limits
 
-The current v33 checkout built and ran on the owned Android emulator. Native
+The current v34 checkout built and ran on the owned Android emulator. Native
 selection, cancellation, incremental adding, tray reordering, local album
-creation, playback/queue/seek were captured and inspected. Exported v33 movies use those fresh native captures with stationary Pixel framing. A 60 fps export is not a
+creation, playback/queue/seek were captured and inspected. Exported v34 movies use those fresh native captures with stationary Pixel framing. A 60 fps export is not a
 claim of uniformly 60 fps native rendering.
 
 This isolated patch passes application and resulting-file hash checks against

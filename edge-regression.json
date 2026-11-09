@@ -1,0 +1,24 @@
+{
+  "stock_fade_classes": [
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/chat/layouts/ChatActivityFadeView.java",
+      "upstream_unchanged": true,
+      "sha256_lf": "03c87ca40cf334784fdd372ba6d107a4cfed7d0ca676e241494eacc0d992d5b7"
+    },
+    {
+      "path": "TMessagesProj/src/main/java/org/telegram/ui/Components/blur3/BlurredBackgroundWithFadeDrawable.java",
+      "upstream_unchanged": true,
+      "sha256_lf": "f0cd89bd4e2818eba4eaf863b8e28c66a29c4f7931e1d4f2236ac4bcfcc45991"
+    }
+  ],
+  "fixture_fade_override_removed": true,
+  "compositor_gradient_added": false,
+  "visual_initial_frame_check": "passed: native frames at0,.2,.5,.8,1.5s checked at both edges for both takes",
+  "previous_full_16s_audio_anchor_correlation": 0.69,
+  "bounded_16s_anchor_window_seconds": 0.3,
+  "audio_acceptance_threshold_unchanged": 0.8,
+  "failed_photo_take": "photos-failed-actor-v1; harness reopened tray before native drop settling, later tapped chat row and invoked Quick Share. Not delivered.",
+  "native_album_preview_visual": "verified in final frame-7.50.jpg",
+  "gesture_handle_geometry_unchanged": "centerY1023,15px glass inset",
+  "native_status_icons_restored": true
+}

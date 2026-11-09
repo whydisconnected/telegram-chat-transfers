@@ -1,6 +1,6 @@
-# v33 presentation and source credits
+# v34 presentation and source credits
 
-Both movies use fresh native v33 captures from the owned Android emulator,
+Both movies use fresh native v34 captures from the owned Android emulator,
 physical1080x2410. Native application interactions are real recorded actions.
 White touch feedback comes from actual MotionEvents. No optical flow or fake
 gesture is inserted. Daniel's outer Paris background is restored; Alina keeps
@@ -48,3 +48,7 @@ The source package does not redistribute those original media files. Its generat
 creates original abstract replacement photos and synthesized test tones instead.
 Telegram-derived code retains GPL v2 or later and upstream copyright notices.
 Translation exports are Telegram Android localization resources.
+
+Native edge correction: the fixture does not replace or recolor ChatActivity
+edge-fade drawables. Telegram owns their wallpaper source, bounds and lifecycle
+from the first layout. No top/bottom gradient is added in the movie compositor.

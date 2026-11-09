@@ -484,7 +484,7 @@ diff --git a/TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActiv
 new file mode 100644
 --- /dev/null
 +++ b/TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActivity.java
-@@ -0,0 +1,501 @@
+@@ -0,0 +1,494 @@
 +package org.telegram.ui;
 +
 +import android.content.Context;
@@ -730,15 +730,8 @@ new file mode 100644
 +    }
 +
 +    private void installInteractions(FrameLayout host) throws Exception {
-+        org.telegram.ui.Components.chat.layouts.ChatActivityFadeView nativeFade =
-+                (org.telegram.ui.Components.chat.layouts.ChatActivityFadeView) field("chatActivityFadeView").get(this);
-+        org.telegram.ui.Components.blur3.source.BlurredBackgroundSourceColor edgeColor =
-+                new org.telegram.ui.Components.blur3.source.BlurredBackgroundSourceColor();
-+        edgeColor.setColor(android.graphics.Color.BLACK);
-+        nativeFade.setup(new org.telegram.ui.Components.blur3.BlurredBackgroundDrawableViewFactory(edgeColor));
-+        nativeFade.setFadeHeightTop(AndroidUtilities.dp(48));
-+        nativeFade.setFadeHeightBottom(AndroidUtilities.dp(48));
-+        nativeFade.setAlpha(1f);
++        // ChatActivity owns both edge fades and their wallpaper source. Replacing
++        // its drawables after layout loses their bounds until the next UI update.
 +        Bitmap[] photos = new Bitmap[18];
 +        for (int i = 0; i < photos.length; i++) photos[i] = i < 6
 +                ? BitmapFactory.decodeFile(fixture.photo(i).getAbsolutePath()) : photos[i % 6];
