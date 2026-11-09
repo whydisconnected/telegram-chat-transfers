@@ -6,8 +6,12 @@ package contains both feature code and its isolated, signed-out demo host.
 
 [Photo draft demo](photos.mp4) · [Music queue demo](player.mp4)
 
-Both movies use a stationary, original Pixel 10 Pro frame and a minimal dark
-background. Hardware artwork credit and media provenance are in CREDITS.md.
+Latest movies (v32) use stationary Pixel 10 Pro hardware with darker metal and
+a minimal dark background. At the user's request, the 9:41, Wi-Fi and battery
+status glyphs match their mockup reference, with deeper side insets following
+their second real-Pixel photo. These are presentation overlays, not native
+Android SystemUI evidence; application interactions remain the real v29 capture.
+Hardware, status artwork and audio provenance are in CREDITS.md.
 
 ## What the concepts do
 
@@ -84,7 +88,7 @@ music experiments from the working checkout are excluded.
 
 The original v29 checkout built and ran on the owned Android emulator. Native
 selection, cancellation, incremental adding, tray reordering, local album
-creation, playback/queue/seek were captured and inspected. Exported v30 movies
+creation, playback/queue/seek were captured and inspected. Exported v32 movies
 reuse those captures with stationary Pixel framing. A 60 fps export is not a
 claim of uniformly 60 fps native rendering.
 

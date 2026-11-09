@@ -19,6 +19,27 @@
   },
   "patch_apply_checked": true,
   "full_isolated_build_checked": false,
-  "origin": "v29 native concept sources; v30 changes video presentation only",
-  "unrelated_drafts_and_profile_music_omitted": true
+  "origin": "v29 native concept sources; v32 changes presentation hardware/background/status only",
+  "unrelated_drafts_and_profile_music_omitted": true,
+  "presentation_status_native": false,
+  "presentation_status_positions_in_490px_frame": [
+    [
+      "clock",
+      59,
+      49,
+      14
+    ],
+    [
+      "wifi",
+      372,
+      49,
+      14
+    ],
+    [
+      "battery",
+      397,
+      49,
+      14
+    ]
+  ]
 }

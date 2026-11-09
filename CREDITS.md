@@ -1,7 +1,8 @@
-# v30 presentation and source credits
+# v32 presentation and source credits
 
 Both movies reuse the real, inspected native Telegram Android v29 captures.
-Only the external framing/background changed in v30. Touch feedback comes
+This revision changes external framing/background and the decorative status
+strip. Native application interactions are unchanged. Touch feedback comes
 from actual MotionEvents in the original take. No new app build, synthetic
 UI animation, optical flow or fake gesture was inserted for this revision.
 
@@ -9,14 +10,23 @@ Pixel frame: original Pixel 10 Pro hardware at
 https://screenshots.guru/frames/png/pixel-10-pro-frame.png , offered at
 https://screenshots.guru/frames under Apache 2.0 / Android Open Source Project.
 The device, lens, side buttons, corners and metallic finish retain the provider's
-original geometry. The complete native capture is uniformly fitted; a little
+original geometry. Metal highlights are graded darker (gain0.66, gamma1.08);
+the original lens region is excluded from grading. The native capture is
+uniformly fitted; a little
 black padding handles its different aspect ratio. No UI is stretched or cropped.
 The standalone frame is not included in this repository.
+
+Status chrome: clock9:41, Wi-Fi and battery silhouettes extracted from the
+user-supplied mockup crop, tinted for the dark theme. The original recorded
+Android status strip is covered for presentation. This is not evidence of
+Android using those status symbols. The lens remains part of the Pixel artwork.
+The standalone reference and extracted glyph assets are not redistributed.
 
 Background and compositing are procedural. No other concept's pixels are copied.
 White tap feedback is native captured feedback. The references supplied for
 review are Multi-Action Swipe by @riveaux and Video message shapes by @mazurov;
-neither their code nor their media is incorporated here.
+Their implementation code and application footage are not incorporated here;
+the status silhouettes above follow the user's supplied reference.
 
 The photo film shows fictional Daniel Orlov, stock gallery/preview, the custom
 draft tray and local grouped-message insertion. Its simulated upload completion
