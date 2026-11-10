@@ -6,7 +6,7 @@ package contains both feature code and its isolated, signed-out demo host.
 
 [Photo draft demo](photos.mp4) · [Music queue demo](player.mp4)
 
-Photo movie v35 is freshly captured; player movie reuses verified v34 footage, both on a physical1080x2410 test-emulator
+Photo movie v36 is freshly captured; player movie reuses verified v34 footage, both on a physical1080x2410 test-emulator
 display, matching the Pixel10Pro display aspect. Daniel retains the Paris
 background; Alina uses a minimal dark background. Original Pixel geometry is
 stationary and the metal highlights are toned down. Status glyphs follow the
@@ -85,6 +85,14 @@ Integration changes are in `AnimatedLinearLayout`, `AudioPlayerAlert`,
 `ChatAttachAlert`, `FragmentContextView`, `SeekBarView`, `TrashView`, and one
 debug-only entry in `LaunchActivity`. Unrelated drafts grouping and profile
 music experiments from the working checkout are excluded.
+
+## Current capture pacing
+
+The v36 photo film reuses the unchanged v35 application build and records real
+input with a400ms lift hold (the harness uses5ms units), a600ms drag path, and
+450ms after release before reopening the tray. Last-character release and send
+tap are separated by500ms inside the same native input sequence, with no
+accessibility dump between them. No native UI animation is sped up in editing.
 
 ## Current native changes
 

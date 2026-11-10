@@ -1,0 +1,20 @@
+{
+  "native_app_build_reused": "v35",
+  "hold_unit_ms": 5,
+  "lift_hold_units": 80,
+  "lift_hold_ms": 400,
+  "previous_lift_hold_ms": 1750,
+  "drag_path_ms": [
+    300,
+    300
+  ],
+  "capture_command_duration_seconds": 1.469,
+  "previous_capture_command_duration_seconds": 2.938,
+  "drop_command_to_open_command_seconds": 0.453,
+  "caption_to_send": {
+    "last_character_up_to_send_down_ms": 500,
+    "same_native_input_sequence": true
+  },
+  "no_native_video_speedup": true,
+  "player_reused": "v34"
+}
