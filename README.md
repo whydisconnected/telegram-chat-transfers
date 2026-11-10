@@ -6,7 +6,7 @@ package contains both feature code and its isolated, signed-out demo host.
 
 [Photo draft demo](photos.mp4) · [Music queue demo](player.mp4)
 
-Photo movie v37 is freshly captured; player movie reuses verified v34 footage, both on a physical1080x2410 test-emulator
+Photo movie v38 is freshly captured; player movie is freshly captured, both on a physical1080x2410 test-emulator
 display, matching the Pixel10Pro display aspect. Daniel retains the Paris
 background; Alina uses a minimal dark background. Original Pixel geometry is
 stationary and the metal highlights are toned down. Status glyphs follow the
@@ -86,15 +86,26 @@ Integration changes are in `AnimatedLinearLayout`, `AudioPlayerAlert`,
 debug-only entry in `LaunchActivity`. Unrelated drafts grouping and profile
 music experiments from the working checkout are excluded.
 
-## Current capture pacing
+## Current films (v38)
 
-The v37 photo film restores the original v35 scene timings and27.5s duration.
-Only the accidental long stationary hold is removed:400ms recognition hold,
-then the original700ms moving path. Reorder, preview, gallery return and typing
-retain their original presentation time. Send follows the last character by
-500ms in one real input sequence. Application source/build is unchanged fromv35.
+Both movies are28seconds. The photo story includes retained-draft chat scrolling,
+thumbnail-interior taps, the native album preview, selection transfer, reorder,
+caption and a sent-album context scroll. The player story pins a fictional peer
+message through the native menu/confirmation, then demonstrates compact swipes,
+expanded artwork and seek with the native pinned row above it.
+
+Pin completion is local fixture state, not Telegram network delivery. The native
+ChatActivity renders and animates the pinned row; the fixture intercepts its
+confirmation only in the signed-out debug host. Recording control receivers are
+registered only for that isolated host. Real audio/gesture evidence is documented
+separately from source compilation and the final soundtrack.
 
 ## Current native changes
+
+- The offline adapter refreshes native blur sources on model changes. Native
+  scroll/layout invalidation is retained; the redundant forced refresh on every
+  vsync is removed. Final captures use the freshly rebuilt client.
+
 
 - The attachment sheet routes thumbnail taps to the existing photo-cell selection delegate.
   Tapping the thumbnail selects it; the film touches photo interiors instead

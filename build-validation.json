@@ -1,6 +1,6 @@
 {
-  "build": "BUILD SUCCESSFUL in 1m 52s",
-  "apk_sha256": "e81606c8042e96303e77d1f1025ed22ce73655d16fefd67d218f8e50d5362f9a",
+  "build": "BUILD SUCCESSFUL in 2m 20s",
+  "apk_sha256": "badb91f8dce60f4472bfaf49b9f5490c8eaa91fb4ad3f180b86e3150d9c677f8",
   "sources": [
     {
       "path": "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferDemoActivity.java",
@@ -14,12 +14,12 @@
     },
     {
       "path": "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeActivity.java",
-      "sha256": "75563239f48d7c695f883710bf136f748a4af80b789d7e00a32bf2f0fba9404d",
+      "sha256": "9eb0746c714639e7735e9505ec88b44e63113fdf3e4e63a0360e250f4ee75b33",
       "mirror_matches": true
     },
     {
       "path": "TMessagesProj/src/main/java/org/telegram/ui/ChatTransferNativeChrome.java",
-      "sha256": "b280b05fe834cf4988d6a41732fbd526722d3c1c8da7c0cd8116f38d158cfe0c",
+      "sha256": "535290600660ed7317f14c55958078e1bd0d4c124f6923886fe6f9c6b8b96e99",
       "mirror_matches": true
     },
     {

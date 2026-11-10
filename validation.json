@@ -1,257 +1,296 @@
 {
   "photos": {
-    "frames": 1650,
-    "duration": 27.5,
+    "frames": 1680,
+    "duration": 28.0,
     "encoded_fps": 60,
     "native_fps_uniform": false,
     "sampled_black_flashes": [],
-    "gesture_bar_center_y_px": 1023.0,
-    "approx_glass_edge_inset_px": 15.0,
+    "gesture_bar_center_y_px": 1022.5,
+    "approx_glass_edge_inset_px": 15.5,
     "native_edge_fade_preserved": true,
     "presentation_status_native": false,
-    "source_capture": "fresh native v37",
-    "sha256": "28645c06552d93735f9ee39fda92eae6e55251f26f80e1d92b308eeab0534c30",
+    "source_capture": "fresh native v38",
+    "sha256": "97c494c8907ce6dde0b78d2beb4c1d8496fb955c08d212ea3f7d6eb73db327a6",
     "native_validation": {
       "raw_black_flashes": [],
-      "raw_minimum_brightness": 34.16555555555556,
+      "raw_minimum_brightness": 33.82926136363636,
       "gallery_first_frame": {
-        "request_to_ready_ms": 300,
+        "request_to_ready_ms": 187,
         "after_first_draw_ms": 0,
         "cells": 13,
         "ready": 13,
-        "shared": 13
+        "shared": 0
       },
       "cancel_target_release_to_hidden_ms": [
-        139
+        165
       ],
       "native_preview_in_story": true,
       "canceled_transfer_separate_coverage": [
         149,
         170
       ],
-      "native_gift_changed_pixels": 626,
+      "native_gift_changed_pixels": 451,
       "native_album_animator_verified": true
     }
   },
   "player": {
-    "frames": 1710,
-    "duration": 28.5,
+    "frames": 1680,
+    "duration": 28.0,
     "encoded_fps": 60,
     "native_fps_uniform": false,
     "sampled_black_flashes": [],
-    "gesture_bar_center_y_px": 1023.0,
-    "approx_glass_edge_inset_px": 15.0,
+    "gesture_bar_center_y_px": 1022.0,
+    "approx_glass_edge_inset_px": 16.0,
     "native_edge_fade_preserved": true,
     "presentation_status_native": false,
-    "source_capture": "unchanged verified v34",
-    "sha256": "a7899d003461569e49aa36d69cc0b13f5c944e8daa1b3b1ced4f75e3ae53bbdb",
+    "source_capture": "fresh native v38",
+    "sha256": "cd2421e301ff7ebcba8dad40f4eecaf47c4ba05ec7619b74ac67da89f7341787",
     "native_validation": {
       "raw_black_flashes": [],
-      "raw_minimum_brightness": 29.348444444444443,
-      "raw_audio_peak": 0.024856841191649437,
+      "raw_minimum_brightness": 19.680740037950663,
+      "raw_audio_peak": 0.024325668811798096,
       "initial_0_7s_peak": 0.0,
       "audio_fingerprints": [
         {
           "video_seconds": 2,
           "track": 0,
-          "source_seconds": 1.23,
-          "correlation": 0.989
+          "source_seconds": 0.963,
+          "correlation": 0.984
         },
         {
           "video_seconds": 3.2,
           "track": 0,
-          "source_seconds": 2.43,
-          "correlation": 0.986
+          "source_seconds": 2.16,
+          "correlation": 0.98
         },
         {
           "video_seconds": 9,
           "track": 0,
-          "source_seconds": 8.219,
-          "correlation": 0.993
+          "source_seconds": 7.961,
+          "correlation": 0.972
         },
         {
-          "video_seconds": 12.3,
+          "video_seconds": 13.8,
+          "track": 0,
+          "source_seconds": 12.761,
+          "correlation": 0.98
+        },
+        {
+          "video_seconds": 14.2,
+          "track": 0,
+          "source_seconds": 297.919,
+          "correlation": 0.635
+        },
+        {
+          "video_seconds": 14.4,
+          "track": 0,
+          "source_seconds": 0.0,
+          "correlation": 0.0
+        },
+        {
+          "video_seconds": 14.6,
+          "track": 0,
+          "source_seconds": 0.0,
+          "correlation": 0.0
+        },
+        {
+          "video_seconds": 14.8,
           "track": 1,
-          "source_seconds": 0.479,
-          "correlation": 0.99
+          "source_seconds": 0.502,
+          "correlation": 0.981
         },
         {
-          "video_seconds": 14.9,
-          "track": 0,
-          "source_seconds": 1.233,
-          "correlation": 0.998
-        },
-        {
-          "video_seconds": 16,
-          "track": 0,
-          "source_seconds": 2.333,
-          "correlation": 0.998
-        },
-        {
-          "video_seconds": 18.6,
-          "track": 0,
-          "source_seconds": 102.735,
-          "correlation": 0.965
-        },
-        {
-          "video_seconds": 20.4,
+          "video_seconds": 15.0,
           "track": 1,
-          "source_seconds": 1.986,
-          "correlation": 0.991
+          "source_seconds": 0.725,
+          "correlation": 0.989
         },
         {
-          "video_seconds": 22.5,
+          "video_seconds": 15.4,
+          "track": 0,
+          "source_seconds": 214.881,
+          "correlation": 0.743
+        },
+        {
+          "video_seconds": 17.6,
+          "track": 0,
+          "source_seconds": 1.99,
+          "correlation": 0.992
+        },
+        {
+          "video_seconds": 20.1,
+          "track": 0,
+          "source_seconds": 103.027,
+          "correlation": 0.992
+        },
+        {
+          "video_seconds": 22.2,
+          "track": 1,
+          "source_seconds": 1.803,
+          "correlation": 0.997
+        },
+        {
+          "video_seconds": 24.2,
           "track": 2,
-          "source_seconds": 0.567,
+          "source_seconds": 1.007,
           "correlation": 0.906
         },
         {
-          "video_seconds": 23.0,
-          "track": 2,
-          "source_seconds": 1.067,
-          "correlation": 0.932
-        },
-        {
-          "video_seconds": 23.8,
-          "track": 2,
-          "source_seconds": 1.867,
-          "correlation": 0.93
-        },
-        {
-          "video_seconds": 24.0,
-          "track": 2,
-          "source_seconds": 2.067,
-          "correlation": 0.915
-        },
-        {
-          "video_seconds": 24.7,
-          "track": 2,
-          "source_seconds": 2.767,
-          "correlation": 0.926
-        },
-        {
-          "video_seconds": 27,
+          "video_seconds": 27.2,
           "track": 1,
-          "source_seconds": 0.929,
-          "correlation": 0.99
+          "source_seconds": 0.785,
+          "correlation": 0.997
         }
       ],
       "raw_audio_diagnostics": {
         "raw_timestamp_gaps": [
           [
-            0.156125,
-            0.002104166666666657
+            0.8722083333333334,
+            0.0012500000000000844
           ],
           [
-            0.18191666666666667,
-            0.004458333333333314
+            1.1741458333333334,
+            0.003249999999999975
           ],
           [
-            7.6130625,
-            0.0072499999999990905
+            1.3236875,
+            0.00020833333333314386
           ],
           [
-            8.3215625,
-            0.004500000000001947
-          ],
-          [
-            16.40652083333333,
-            0.02108333333332979
+            2.6064583333333333,
+            0.00279166666666697
           ]
         ],
         "local_track2_fingerprints": [
           {
             "t": 22.5,
-            "source": 0.5673333333333334,
-            "correlation": 0.905732494298575
+            "source": 6.120666666666667,
+            "correlation": 0.10519294419106111
           },
           {
             "t": 23,
-            "source": 1.0673333333333332,
-            "correlation": 0.9268299699560203
+            "source": 1.8613333333333333,
+            "correlation": 0.13536913037406692
           },
           {
             "t": 23.5,
-            "source": 1.5673333333333332,
-            "correlation": 0.9507246508477232
+            "source": 0.3273333333333333,
+            "correlation": 0.5318102773535979
           },
           {
             "t": 24,
-            "source": 2.0673333333333335,
-            "correlation": 0.9153471449718452
+            "source": 0.8066666666666666,
+            "correlation": 0.8702580115172672
           },
           {
             "t": 24.3,
-            "source": 2.3673333333333333,
-            "correlation": 0.9102403956726576
+            "source": 1.1066666666666667,
+            "correlation": 0.8812371389020938
           },
           {
             "t": 24.5,
-            "source": 2.5673333333333335,
-            "correlation": 0.9372492745540819
+            "source": 1.3066666666666666,
+            "correlation": 0.8821414132785526
           },
           {
             "t": 24.7,
-            "source": 2.767333333333333,
-            "correlation": 0.9263153772244394
+            "source": 1.5066666666666666,
+            "correlation": 0.9212084842114
           },
           {
             "t": 25,
-            "source": 3.0673333333333335,
-            "correlation": 0.9094841174800254
+            "source": 1.8066666666666666,
+            "correlation": 0.9399325986598989
           },
           {
             "t": 25.3,
-            "source": 3.3673333333333333,
-            "correlation": 0.9024439792058135
+            "source": 2.1066666666666665,
+            "correlation": 0.9048045902901914
           }
         ]
+      },
+      "first_next_anchor": {
+        "video_seconds": 15.0,
+        "track": 1,
+        "source_seconds": 0.725,
+        "correlation": 0.989
       },
       "alignment_anchors": [
         {
           "video_seconds": 3.2,
           "track": 0,
-          "source_seconds": 2.43,
-          "correlation": 0.986
+          "source_seconds": 2.16,
+          "correlation": 0.98
         },
         {
-          "video_seconds": 12.3,
-          "track": 1,
-          "source_seconds": 0.479,
-          "correlation": 0.99
-        },
-        {
-          "video_seconds": 16,
+          "video_seconds": 17.6,
           "track": 0,
-          "source_seconds": 2.333,
-          "correlation": 0.998
+          "source_seconds": 1.99,
+          "correlation": 0.992
         },
         {
-          "video_seconds": 18.6,
+          "video_seconds": 20.1,
           "track": 0,
-          "source_seconds": 102.735,
-          "correlation": 0.965
+          "source_seconds": 103.027,
+          "correlation": 0.992
         },
         {
-          "video_seconds": 20.4,
+          "video_seconds": 22.2,
           "track": 1,
-          "source_seconds": 1.986,
-          "correlation": 0.991
+          "source_seconds": 1.803,
+          "correlation": 0.997
         },
         {
-          "video_seconds": 24.0,
+          "video_seconds": 24.2,
           "track": 2,
-          "source_seconds": 2.067,
-          "correlation": 0.915
+          "source_seconds": 1.007,
+          "correlation": 0.906
         },
         {
-          "video_seconds": 27,
+          "video_seconds": 27.2,
           "track": 1,
-          "source_seconds": 0.929,
-          "correlation": 0.99
+          "source_seconds": 0.785,
+          "correlation": 0.997
+        },
+        {
+          "video_seconds": 15.0,
+          "track": 1,
+          "source_seconds": 0.725,
+          "correlation": 0.989
         }
       ],
-      "low_confidence_audio_windows": [],
+      "low_confidence_audio_windows": [
+        {
+          "video_seconds": 14.2,
+          "track": 0,
+          "source_seconds": 297.919,
+          "correlation": 0.635
+        },
+        {
+          "video_seconds": 14.4,
+          "track": 0,
+          "source_seconds": 0.0,
+          "correlation": 0.0
+        },
+        {
+          "video_seconds": 14.6,
+          "track": 0,
+          "source_seconds": 0.0,
+          "correlation": 0.0
+        },
+        {
+          "video_seconds": 15.4,
+          "track": 0,
+          "source_seconds": 214.881,
+          "correlation": 0.743
+        }
+      ],
+      "native_pin_with_compact_swipes_expansion_and_seek": true,
+      "pin_geometry": {
+        "base_top": 276,
+        "pinned_top": 408,
+        "delta": 132
+      },
       "native_music_pickups": [
         [
           "1",
@@ -265,7 +304,7 @@
         ]
       ]
     },
-    "audio_minimum_correlation": 0.999133
+    "audio_minimum_correlation": 0.993946
   },
-  "local_upload_seconds": 0.97
+  "local_upload_seconds": 1.014
 }

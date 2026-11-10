@@ -1,11 +1,10 @@
-# v37 presentation and source credits
+# v38 presentation and source credits
 
-The photo movie uses a fresh native v37 capture; the player movie reuses the
-unchanged verified v34 capture from the owned Android emulator,
-physical1080x2410. Native application interactions are real recorded actions.
-White touch feedback comes from actual MotionEvents. No optical flow or fake
-gesture is inserted. Daniel's outer Paris background is restored; Alina keeps
-the minimal dark ambient background. Camera framing is stationary.
+Both movies use fresh native v38 captures from the owned Android emulator,
+physical1080x2410. Each film is28seconds. Touch indicators follow actual input
+MotionEvents; there is no optical flow or accelerated UI animation. The phone
+camera is stationary. Capture max-size1400 for photos and1080 for the player keeps the final444x993
+display sampled from real native pixels while lowering encoder load. Both takes are visually reviewed.
 
 Pixel frame: original Pixel 10 Pro hardware at
 https://screenshots.guru/frames/png/pixel-10-pro-frame.png , offered at
@@ -58,3 +57,10 @@ Photo selection routes thumbnail taps to the existing photo-cell selection
 delegate and uses real
 MotionEvents inside thumbnail interiors, rather than moving touch indicators
 in compositing. Source gallery layout implementation is unchanged.
+
+The player film uses native message-menu and confirmation taps, then native
+pinned-row rendering. Pin completion is local signed-out fixture state and
+makes no Telegram-network claim. Compact swipes, artwork expansion/collapse and
+seek are recorded with that pinned row present. Windows output for the owned
+emulator is muted during work; guest audio capture and soundtrack validation
+are separate from the PC mixer setting.

@@ -1,0 +1,198 @@
+{
+  "photos": {
+    "windows": [
+      [
+        14.8,
+        16.2
+      ]
+    ],
+    "motion_threshold": 0.5,
+    "largest_raw_intervals": [
+      {
+        "t": 14.81717,
+        "interval_ms": 100.0,
+        "mean_pixel_change": 0.0
+      },
+      {
+        "t": 14.91717,
+        "interval_ms": 100.0,
+        "mean_pixel_change": 0.0
+      },
+      {
+        "t": 15.53274,
+        "interval_ms": 100.0,
+        "mean_pixel_change": 0.0127
+      },
+      {
+        "t": 15.63274,
+        "interval_ms": 100.0,
+        "mean_pixel_change": 0.0005
+      },
+      {
+        "t": 15.73274,
+        "interval_ms": 100.0,
+        "mean_pixel_change": 0.0001
+      },
+      {
+        "t": 15.83274,
+        "interval_ms": 100.0,
+        "mean_pixel_change": 0.0
+      },
+      {
+        "t": 15.93274,
+        "interval_ms": 100.0,
+        "mean_pixel_change": 0.0
+      },
+      {
+        "t": 15.99841,
+        "interval_ms": 65.667,
+        "mean_pixel_change": 0.0
+      }
+    ],
+    "largest_moving_intervals": [
+      {
+        "t": 15.1185,
+        "interval_ms": 19.844,
+        "mean_pixel_change": 6.3614
+      },
+      {
+        "t": 15.0693,
+        "interval_ms": 19.822,
+        "mean_pixel_change": 6.7842
+      },
+      {
+        "t": 14.96816,
+        "interval_ms": 19.022,
+        "mean_pixel_change": 3.6766
+      },
+      {
+        "t": 15.03308,
+        "interval_ms": 18.833,
+        "mean_pixel_change": 5.2206
+      },
+      {
+        "t": 15.167,
+        "interval_ms": 18.467,
+        "mean_pixel_change": 3.8547
+      },
+      {
+        "t": 15.26733,
+        "interval_ms": 18.422,
+        "mean_pixel_change": 1.1431
+      },
+      {
+        "t": 15.31788,
+        "interval_ms": 18.289,
+        "mean_pixel_change": 0.5546
+      },
+      {
+        "t": 15.24891,
+        "interval_ms": 17.889,
+        "mean_pixel_change": 1.9146
+      }
+    ],
+    "moving_gaps_over50ms": []
+  },
+  "player": {
+    "windows": [
+      [
+        13.0,
+        16.4
+      ],
+      [
+        15.7,
+        18.5
+      ],
+      [
+        23.6,
+        25.9
+      ]
+    ],
+    "motion_threshold": 0.5,
+    "largest_raw_intervals": [
+      {
+        "t": 18.25467,
+        "interval_ms": 36.422,
+        "mean_pixel_change": 0.0001
+      },
+      {
+        "t": 15.3715,
+        "interval_ms": 35.933,
+        "mean_pixel_change": 0.2709
+      },
+      {
+        "t": 13.97059,
+        "interval_ms": 35.311,
+        "mean_pixel_change": 0.1478
+      },
+      {
+        "t": 14.28732,
+        "interval_ms": 33.556,
+        "mean_pixel_change": 0.0
+      },
+      {
+        "t": 16.6026,
+        "interval_ms": 32.956,
+        "mean_pixel_change": 1.1298
+      },
+      {
+        "t": 24.40161,
+        "interval_ms": 32.356,
+        "mean_pixel_change": 3.8616
+      },
+      {
+        "t": 16.15238,
+        "interval_ms": 31.844,
+        "mean_pixel_change": 0.0
+      },
+      {
+        "t": 16.65391,
+        "interval_ms": 31.411,
+        "mean_pixel_change": 3.0206
+      }
+    ],
+    "largest_moving_intervals": [
+      {
+        "t": 16.6026,
+        "interval_ms": 32.956,
+        "mean_pixel_change": 1.1298
+      },
+      {
+        "t": 24.40161,
+        "interval_ms": 32.356,
+        "mean_pixel_change": 3.8616
+      },
+      {
+        "t": 16.65391,
+        "interval_ms": 31.411,
+        "mean_pixel_change": 3.0206
+      },
+      {
+        "t": 13.41723,
+        "interval_ms": 28.867,
+        "mean_pixel_change": 1.1751
+      },
+      {
+        "t": 13.77544,
+        "interval_ms": 22.622,
+        "mean_pixel_change": 1.0855
+      },
+      {
+        "t": 16.85671,
+        "interval_ms": 20.767,
+        "mean_pixel_change": 0.7868
+      },
+      {
+        "t": 16.6225,
+        "interval_ms": 19.9,
+        "mean_pixel_change": 2.0748
+      },
+      {
+        "t": 14.87158,
+        "interval_ms": 19.178,
+        "mean_pixel_change": 1.3597
+      }
+    ],
+    "moving_gaps_over50ms": []
+  }
+}

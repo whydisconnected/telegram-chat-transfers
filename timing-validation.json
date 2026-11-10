@@ -1,21 +1,16 @@
 {
-  "duration_seconds": 27.5,
-  "original_scene_schedule_restored": true,
-  "lift_recognition_hold_ms": 400,
-  "previous_accidental_hold_ms": 1750,
-  "moving_path_ms": [
-    350,
-    350
-  ],
-  "transfer_capture_command_seconds": 1.5,
-  "caption_send_gap_ms": 500,
-  "same_native_input_sequence": true,
-  "app_source_build_reused": "v35",
-  "no_native_ui_speedup": true,
-  "actions": [
+  "revision": "v38",
+  "photo_duration_seconds": 28,
+  "player_duration_seconds": 28,
+  "caption_input": {
+    "focus_up_to_first_key_down_ms": 380,
+    "last_character_up_to_send_down_ms": 500,
+    "same_native_input_sequence": true
+  },
+  "photo_events": [
     {
-      "t": 0.609,
-      "end": 0.765,
+      "t": 1.5,
+      "end": 1.578,
       "name": "open_native_gallery",
       "kind": "tap",
       "args": [
@@ -24,8 +19,8 @@
       ]
     },
     {
-      "t": 2.093,
-      "end": 2.296,
+      "t": 3.0,
+      "end": 3.203,
       "name": "select_bridge",
       "kind": "tap",
       "args": [
@@ -34,8 +29,8 @@
       ]
     },
     {
-      "t": 2.5,
-      "end": 2.609,
+      "t": 3.406,
+      "end": 3.547,
       "name": "select_tower",
       "kind": "tap",
       "args": [
@@ -44,8 +39,8 @@
       ]
     },
     {
-      "t": 2.906,
-      "end": 2.984,
+      "t": 3.797,
+      "end": 3.906,
       "name": "select_street",
       "kind": "tap",
       "args": [
@@ -54,8 +49,8 @@
       ]
     },
     {
-      "t": 3.5,
-      "end": 3.609,
+      "t": 4.391,
+      "end": 4.5,
       "name": "tap_backdrop_stage_first_three",
       "kind": "tap",
       "args": [
@@ -64,8 +59,8 @@
       ]
     },
     {
-      "t": 4.39,
-      "end": 4.484,
+      "t": 5.312,
+      "end": 5.391,
       "name": "expand_three_photos",
       "kind": "tap",
       "args": [
@@ -74,8 +69,8 @@
       ]
     },
     {
-      "t": 5.296,
-      "end": 5.437,
+      "t": 6.203,
+      "end": 6.266,
       "name": "collapse_three_photos",
       "kind": "tap",
       "args": [
@@ -84,8 +79,20 @@
       ]
     },
     {
-      "t": 5.89,
-      "end": 6.062,
+      "t": 6.797,
+      "end": 7.641,
+      "name": "scroll_chat_with_draft",
+      "kind": "drag",
+      "args": [
+        580,
+        1000,
+        580,
+        1320
+      ]
+    },
+    {
+      "t": 8.5,
+      "end": 8.625,
       "name": "plus_return_with_selected_photos",
       "kind": "tap",
       "args": [
@@ -94,8 +101,8 @@
       ]
     },
     {
-      "t": 7.093,
-      "end": 7.218,
+      "t": 9.703,
+      "end": 9.797,
       "name": "open_native_album_preview",
       "kind": "tap",
       "args": [
@@ -104,8 +111,8 @@
       ]
     },
     {
-      "t": 9.0,
-      "end": 9.109,
+      "t": 11.297,
+      "end": 11.359,
       "name": "return_to_native_gallery",
       "kind": "tap",
       "args": [
@@ -114,8 +121,8 @@
       ]
     },
     {
-      "t": 10.296,
-      "end": 10.406,
+      "t": 12.297,
+      "end": 12.391,
       "name": "select_louvre",
       "kind": "tap",
       "args": [
@@ -124,8 +131,8 @@
       ]
     },
     {
-      "t": 10.703,
-      "end": 10.781,
+      "t": 12.703,
+      "end": 12.797,
       "name": "select_notre_dame",
       "kind": "tap",
       "args": [
@@ -134,8 +141,8 @@
       ]
     },
     {
-      "t": 11.296,
-      "end": 12.796,
+      "t": 13.297,
+      "end": 14.969,
       "name": "transfer_only_two_new_photos",
       "kind": "drag",
       "args": [
@@ -146,8 +153,8 @@
       ]
     },
     {
-      "t": 15.406,
-      "end": 15.5,
+      "t": 15.703,
+      "end": 15.766,
       "name": "open_five_photo_stack",
       "kind": "tap",
       "args": [
@@ -156,8 +163,8 @@
       ]
     },
     {
-      "t": 16.312,
-      "end": 17.765,
+      "t": 16.594,
+      "end": 18.031,
       "name": "reorder_five_photos",
       "kind": "drag",
       "args": [
@@ -168,8 +175,8 @@
       ]
     },
     {
-      "t": 18.093,
-      "end": 18.203,
+      "t": 20.0,
+      "end": 20.062,
       "name": "collapse_five_photo_stack",
       "kind": "tap",
       "args": [
@@ -178,23 +185,201 @@
       ]
     },
     {
-      "t": 18.812,
-      "end": 18.921,
-      "name": "focus_caption",
-      "kind": "tap",
-      "args": [
-        420,
-        2250
-      ]
-    },
-    {
-      "t": 19.703,
-      "end": 23.671,
-      "name": "type_caption",
+      "t": 20.703,
+      "end": 26.094,
+      "name": "focus_type_and_send_caption",
       "kind": "softtyping",
       "args": [
         "Paris at sunrise."
       ]
     }
-  ]
+  ],
+  "player_events": [
+    {
+      "t": 1.203,
+      "end": 1.281,
+      "name": "start_music_in_chat",
+      "kind": "tap",
+      "args": [
+        120,
+        1995
+      ]
+    },
+    {
+      "t": 2.5,
+      "end": 4.734,
+      "name": "lift_and_sway_cover",
+      "kind": "drag",
+      "args": [
+        250,
+        1567,
+        540,
+        323
+      ]
+    },
+    {
+      "t": 5.313,
+      "end": 7.453,
+      "name": "queue_tame",
+      "kind": "drag",
+      "args": [
+        250,
+        1781,
+        540,
+        323
+      ]
+    },
+    {
+      "t": 8.203,
+      "end": 8.266,
+      "name": "show_native_queue",
+      "kind": "tap",
+      "args": [
+        500,
+        323
+      ]
+    },
+    {
+      "t": 10.0,
+      "end": 10.078,
+      "name": "close_queue",
+      "kind": "keyevent",
+      "args": [
+        "4"
+      ]
+    },
+    {
+      "t": 10.563,
+      "end": 11.031,
+      "name": "open_message_menu",
+      "kind": "tap",
+      "args": [
+        300,
+        2130
+      ]
+    },
+    {
+      "t": 11.891,
+      "end": 11.969,
+      "name": "choose_pin",
+      "kind": "tap",
+      "args": [
+        200,
+        2035
+      ]
+    },
+    {
+      "t": 12.703,
+      "end": 12.781,
+      "name": "confirm_native_pin",
+      "kind": "tap",
+      "args": [
+        926,
+        1440
+      ]
+    },
+    {
+      "t": 13.813,
+      "end": 14.297,
+      "name": "swipe_compact_next",
+      "kind": "drag",
+      "args": [
+        650,
+        455,
+        210,
+        455
+      ]
+    },
+    {
+      "t": 15.203,
+      "end": 15.672,
+      "name": "swipe_compact_previous",
+      "kind": "drag",
+      "args": [
+        250,
+        455,
+        700,
+        455
+      ]
+    },
+    {
+      "t": 16.609,
+      "end": 17.344,
+      "name": "hold_expand_player",
+      "kind": "drag",
+      "args": [
+        500,
+        455,
+        500,
+        455
+      ]
+    },
+    {
+      "t": 18.813,
+      "end": 19.516,
+      "name": "seek_on_release",
+      "kind": "drag",
+      "args": [
+        130,
+        610,
+        315,
+        610
+      ]
+    },
+    {
+      "t": 21.0,
+      "end": 21.484,
+      "name": "swipe_expanded_next",
+      "kind": "drag",
+      "args": [
+        650,
+        500,
+        210,
+        500
+      ]
+    },
+    {
+      "t": 22.797,
+      "end": 23.281,
+      "name": "swipe_expanded_next_tame",
+      "kind": "drag",
+      "args": [
+        650,
+        500,
+        210,
+        500
+      ]
+    },
+    {
+      "t": 24.391,
+      "end": 25.141,
+      "name": "hold_collapse_player",
+      "kind": "drag",
+      "args": [
+        500,
+        455,
+        500,
+        455
+      ]
+    },
+    {
+      "t": 26.0,
+      "end": 26.5,
+      "name": "swipe_compact_previous_again",
+      "kind": "drag",
+      "args": [
+        250,
+        455,
+        700,
+        455
+      ]
+    }
+  ],
+  "native_pin": {
+    "base_top": 276,
+    "pinned_top": 408,
+    "delta": 132
+  },
+  "network_pin_verified": false,
+  "no_ui_speedup_or_optical_flow": true
 }
