@@ -1,7 +1,7 @@
 {
   "photos": {
-    "frames": 1350,
-    "duration": 22.5,
+    "frames": 1650,
+    "duration": 27.5,
     "encoded_fps": 60,
     "native_fps_uniform": false,
     "sampled_black_flashes": [],
@@ -9,27 +9,27 @@
     "approx_glass_edge_inset_px": 15.0,
     "native_edge_fade_preserved": true,
     "presentation_status_native": false,
-    "source_capture": "fresh native v36",
-    "sha256": "f8c196e1fb61caccfd734f9ee21a80bad2b7ab01d51cc0d6bf33a7329cd667e0",
+    "source_capture": "fresh native v37",
+    "sha256": "28645c06552d93735f9ee39fda92eae6e55251f26f80e1d92b308eeab0534c30",
     "native_validation": {
       "raw_black_flashes": [],
-      "raw_minimum_brightness": 34.12755555555555,
+      "raw_minimum_brightness": 34.16555555555556,
       "gallery_first_frame": {
-        "request_to_ready_ms": 394,
+        "request_to_ready_ms": 300,
         "after_first_draw_ms": 0,
         "cells": 13,
         "ready": 13,
         "shared": 13
       },
       "cancel_target_release_to_hidden_ms": [
-        144
+        139
       ],
       "native_preview_in_story": true,
       "canceled_transfer_separate_coverage": [
         149,
         170
       ],
-      "native_gift_changed_pixels": 803,
+      "native_gift_changed_pixels": 626,
       "native_album_animator_verified": true
     }
   },
@@ -267,5 +267,5 @@
     },
     "audio_minimum_correlation": 0.999133
   },
-  "local_upload_seconds": 0.965
+  "local_upload_seconds": 0.97
 }

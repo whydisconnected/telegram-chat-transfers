@@ -1,6 +1,6 @@
-# v36 presentation and source credits
+# v37 presentation and source credits
 
-The photo movie uses a fresh native v36 capture; the player movie reuses the
+The photo movie uses a fresh native v37 capture; the player movie reuses the
 unchanged verified v34 capture from the owned Android emulator,
 physical1080x2410. Native application interactions are real recorded actions.
 White touch feedback comes from actual MotionEvents. No optical flow or fake

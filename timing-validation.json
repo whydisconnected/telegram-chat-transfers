@@ -1,20 +1,200 @@
 {
-  "native_app_build_reused": "v35",
-  "hold_unit_ms": 5,
-  "lift_hold_units": 80,
-  "lift_hold_ms": 400,
-  "previous_lift_hold_ms": 1750,
-  "drag_path_ms": [
-    300,
-    300
+  "duration_seconds": 27.5,
+  "original_scene_schedule_restored": true,
+  "lift_recognition_hold_ms": 400,
+  "previous_accidental_hold_ms": 1750,
+  "moving_path_ms": [
+    350,
+    350
   ],
-  "capture_command_duration_seconds": 1.469,
-  "previous_capture_command_duration_seconds": 2.938,
-  "drop_command_to_open_command_seconds": 0.453,
-  "caption_to_send": {
-    "last_character_up_to_send_down_ms": 500,
-    "same_native_input_sequence": true
-  },
-  "no_native_video_speedup": true,
-  "player_reused": "v34"
+  "transfer_capture_command_seconds": 1.5,
+  "caption_send_gap_ms": 500,
+  "same_native_input_sequence": true,
+  "app_source_build_reused": "v35",
+  "no_native_ui_speedup": true,
+  "actions": [
+    {
+      "t": 0.609,
+      "end": 0.765,
+      "name": "open_native_gallery",
+      "kind": "tap",
+      "args": [
+        880,
+        2250
+      ]
+    },
+    {
+      "t": 2.093,
+      "end": 2.296,
+      "name": "select_bridge",
+      "kind": "tap",
+      "args": [
+        540,
+        1240
+      ]
+    },
+    {
+      "t": 2.5,
+      "end": 2.609,
+      "name": "select_tower",
+      "kind": "tap",
+      "args": [
+        900,
+        1240
+      ]
+    },
+    {
+      "t": 2.906,
+      "end": 2.984,
+      "name": "select_street",
+      "kind": "tap",
+      "args": [
+        540,
+        1600
+      ]
+    },
+    {
+      "t": 3.5,
+      "end": 3.609,
+      "name": "tap_backdrop_stage_first_three",
+      "kind": "tap",
+      "args": [
+        100,
+        750
+      ]
+    },
+    {
+      "t": 4.39,
+      "end": 4.484,
+      "name": "expand_three_photos",
+      "kind": "tap",
+      "args": [
+        500,
+        2040
+      ]
+    },
+    {
+      "t": 5.296,
+      "end": 5.437,
+      "name": "collapse_three_photos",
+      "kind": "tap",
+      "args": [
+        1010,
+        1770
+      ]
+    },
+    {
+      "t": 5.89,
+      "end": 6.062,
+      "name": "plus_return_with_selected_photos",
+      "kind": "tap",
+      "args": [
+        880,
+        2040
+      ]
+    },
+    {
+      "t": 7.093,
+      "end": 7.218,
+      "name": "open_native_album_preview",
+      "kind": "tap",
+      "args": [
+        280,
+        1020
+      ]
+    },
+    {
+      "t": 9.0,
+      "end": 9.109,
+      "name": "return_to_native_gallery",
+      "kind": "tap",
+      "args": [
+        80,
+        820
+      ]
+    },
+    {
+      "t": 10.296,
+      "end": 10.406,
+      "name": "select_louvre",
+      "kind": "tap",
+      "args": [
+        900,
+        1460
+      ]
+    },
+    {
+      "t": 10.703,
+      "end": 10.781,
+      "name": "select_notre_dame",
+      "kind": "tap",
+      "args": [
+        180,
+        1820
+      ]
+    },
+    {
+      "t": 11.296,
+      "end": 12.796,
+      "name": "transfer_only_two_new_photos",
+      "kind": "drag",
+      "args": [
+        900,
+        1575,
+        310,
+        1650
+      ]
+    },
+    {
+      "t": 15.406,
+      "end": 15.5,
+      "name": "open_five_photo_stack",
+      "kind": "tap",
+      "args": [
+        500,
+        2040
+      ]
+    },
+    {
+      "t": 16.312,
+      "end": 17.765,
+      "name": "reorder_five_photos",
+      "kind": "drag",
+      "args": [
+        925,
+        2045,
+        150,
+        2045
+      ]
+    },
+    {
+      "t": 18.093,
+      "end": 18.203,
+      "name": "collapse_five_photo_stack",
+      "kind": "tap",
+      "args": [
+        1010,
+        1910
+      ]
+    },
+    {
+      "t": 18.812,
+      "end": 18.921,
+      "name": "focus_caption",
+      "kind": "tap",
+      "args": [
+        420,
+        2250
+      ]
+    },
+    {
+      "t": 19.703,
+      "end": 23.671,
+      "name": "type_caption",
+      "kind": "softtyping",
+      "args": [
+        "Paris at sunrise."
+      ]
+    }
+  ]
 }

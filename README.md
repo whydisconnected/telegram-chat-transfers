@@ -6,7 +6,7 @@ package contains both feature code and its isolated, signed-out demo host.
 
 [Photo draft demo](photos.mp4) · [Music queue demo](player.mp4)
 
-Photo movie v36 is freshly captured; player movie reuses verified v34 footage, both on a physical1080x2410 test-emulator
+Photo movie v37 is freshly captured; player movie reuses verified v34 footage, both on a physical1080x2410 test-emulator
 display, matching the Pixel10Pro display aspect. Daniel retains the Paris
 background; Alina uses a minimal dark background. Original Pixel geometry is
 stationary and the metal highlights are toned down. Status glyphs follow the
@@ -88,11 +88,11 @@ music experiments from the working checkout are excluded.
 
 ## Current capture pacing
 
-The v36 photo film reuses the unchanged v35 application build and records real
-input with a400ms lift hold (the harness uses5ms units), a600ms drag path, and
-450ms after release before reopening the tray. Last-character release and send
-tap are separated by500ms inside the same native input sequence, with no
-accessibility dump between them. No native UI animation is sped up in editing.
+The v37 photo film restores the original v35 scene timings and27.5s duration.
+Only the accidental long stationary hold is removed:400ms recognition hold,
+then the original700ms moving path. Reorder, preview, gallery return and typing
+retain their original presentation time. Send follows the last character by
+500ms in one real input sequence. Application source/build is unchanged fromv35.
 
 ## Current native changes
 
